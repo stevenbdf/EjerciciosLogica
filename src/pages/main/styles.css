@@ -1,0 +1,15 @@
+.title {
+    font-family: 'Patua One', cursive;
+    text-align: center;
+}
+
+.img {
+    width: 50%;
+    height: 50%;
+}
+
+.img-container {
+    display: flex;
+    justify-content: center;
+    height: 50%;
+}

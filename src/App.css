@@ -31,3 +31,8 @@
     transform: rotate(360deg);
   }
 }
+
+.background {
+  background-image: linear-gradient(-225deg, #E3FDF5 0%, #FFE6FA 100%);
+  height: 100vh;
+}
