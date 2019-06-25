@@ -16,6 +16,11 @@ import Ex12 from './pages/ejercicios/Ejercicio12'
 import Ex13 from './pages/ejercicios/Ejercicio13'
 import Ex14 from './pages/ejercicios/Ejercicio14'
 import Ex15 from './pages/ejercicios/Ejercicio15'
+import Ex16 from './pages/ejercicios/Ejercicio16'
+import Ex17 from './pages/ejercicios/Ejercicio17'
+import Ex18 from './pages/ejercicios/Ejercicio18'
+import Ex19 from './pages/ejercicios/Ejercicio19'
+import Ex20 from './pages/ejercicios/Ejercicio20'
 import { Route, Switch } from 'react-router-dom'
 import { HashRouter } from 'react-router-dom'
 
@@ -40,6 +45,11 @@ function App() {
           <Route exact path='/13' component={Ex13}/>
           <Route exact path='/14' component={Ex14}/>
           <Route exact path='/15' component={Ex15}/>
+          <Route exact path='/16' component={Ex16}/>
+          <Route exact path='/17' component={Ex17}/>
+          <Route exact path='/18' component={Ex18}/>
+          <Route exact path='/19' component={Ex19}/>
+          <Route exact path='/20' component={Ex20}/>
         </Switch>
       </div>
     </HashRouter> 
